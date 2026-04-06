@@ -1,6 +1,3 @@
-/* components.css */
-
-/* Button */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -29,7 +26,16 @@
   background-color: var(--color-text-muted);
 }
 
-/* Badge */
+.btn-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-light:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .badges {
   position: absolute;
   top: 10px;
@@ -53,7 +59,6 @@
 .badge.pre-order { background-color: var(--color-badge-preorder); }
 .badge.sold-out { background-color: var(--color-badge-soldout); }
 
-/* Product Card */
 .product-card {
   position: relative;
   text-align: left;
