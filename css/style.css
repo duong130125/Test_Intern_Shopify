@@ -59,6 +59,26 @@
   background-color: var(--color-badge-preorder);
 }
 
+.svg-icon {
+  height: 20px;
+  width: auto;
+}
+
+.nav-icon {
+  height: 20px;
+  width: auto;
+}
+
+.action-svg {
+  height: 16px;
+  width: auto;
+}
+
+.nav-icon-wrap {
+  position: relative;
+  display: inline-flex;
+}
+
 .header-icons {
   display: flex;
   align-items: center;
@@ -67,10 +87,8 @@
 
 .header-icon-item {
   position: relative;
-  font-size: 20px;
   display: flex;
   align-items: center;
-  color: var(--color-primary);
 }
 
 .icon-badge {
