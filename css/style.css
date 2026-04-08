@@ -87,8 +87,10 @@
 
 .header-icon-item {
   position: relative;
+  font-size: 20px;
   display: flex;
   align-items: center;
+  color: var(--color-primary);
 }
 
 .icon-badge {
